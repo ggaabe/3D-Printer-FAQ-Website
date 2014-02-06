@@ -1,0 +1,141 @@
+body {
+background-image: url('images/printerbackground.jpg');
+}
+
+header {
+color: royalblue;
+text-decoration: underline;
+background-image: url('images/headerbackground3.jpg');
+text-align: center;
+border: 5px solid black;
+border-radius: 5px;
+}
+
+header h1.header {
+width: 50%;
+margin: auto;
+margin-top: 2%;
+background: yellow;
+}
+
+header h2.header {
+width: 50%;
+margin: auto;
+margin-bottom: 2%;
+background: yellow;
+}
+
+nav{
+float: left;
+width: 100px;
+height: 500px;
+}
+
+nav ul a{
+text-decoration: none;
+}
+
+nav ul li {
+list-style-type: none;
+}
+
+nav ul li a{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+nav ul li a:hover, nav ul a div:hover{
+	 background-color: #EE3B3B;
+	 color: white;
+	 font-size: 1.5em;
+	 font-family: Times;
+	 width: 200px;
+	 height: 75px;
+}
+
+nav ul a div{
+display: block;
+text-align: center;
+font-size: 1.3em;
+width: 150px;
+height: 50px;
+border-radius: 8px;
+box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1) inset;
+}
+
+h1.info{
+color: navy;
+text-align: center;
+}
+
+h2.info{
+font-size: 2em;
+background: grey;
+color: navy;
+text-align: center;
+}
+
+h3.info{
+font-size: 1.7em;
+background: grey;
+color: navy;
+text-align: center;
+}
+
+p.info {
+background: grey;
+font-size: 1.3em;
+color: navy;
+text-align: center;
+}
+
+div.info {
+border: 2px dashed grey;
+border-radius: 10px;
+background-image: url('images/object.jpg');
+margin: auto auto auto auto;
+width: 50%;
+height: 50%;
+background-color: white;
+}
+
+form {
+font-weight: bold;
+margin-top: 5%;
+margin-left: 30%;
+margin-right: 50%;
+}
+
+p.form{
+margin-top: 5%;
+margin-left: 30%;
+margin-right: 50%;
+}
+
+div.futureuses {
+border: 2px dashed grey;
+border-radius: 10px;
+background-image: url('images/object.jpg');
+margin: auto auto auto auto;
+width: 50%;
+height: 340%;
+background-color: white;
+}
+
+img.futureuses{
+margin-left: 13%;
+margin-right: auto;
+}
+
+img.food{
+height: 400px;
+width: 500px;
+margin-left: 13%;
+margin-right: auto;
+}
+
+img.materials{
+height: 350px;
+width: 500px;
+margin-left: 13%;
+margin-right: auto;
+}
